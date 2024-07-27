@@ -1,0 +1,79 @@
+/* Arche Discord Community  */
+
+/* Main Element */
+
+body{
+
+    background-color:  #3e3d3d;
+    color: #3b3c3c;
+    text-shadow: 2px 2px 2px #b0b5b5;
+
+}
+
+header{
+
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(#9dcbeb, #0664a6);
+    margin-left: 0px;
+    float: left;
+
+}
+
+/* Set Data */
+
+/* MainHeaderContent */
+
+[data-MainHeaderContent ="MainParent"]{
+
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+
+[data-MainHeaderContent ="MainPreview"]{
+
+    width: 100%;
+    height: calc(100% - 40px);
+    background-image: url("../Asset/BG1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+[data-LogosSpace ="LogosBoxContent"]{
+
+    width: 250px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+[data-LogosSpace ="LogosDisplay"]{
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 2.5px;
+    margin-left: 30px;
+    float: left;
+
+}
+
+[data-LogosSpace ="MainTitle"]{
+
+    font-size: 22px;
+    margin-top: 1.5px;
+    margin-left: 30px;
+    float: left;
+}
