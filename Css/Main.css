@@ -112,5 +112,60 @@ header{
     margin-top: 40px;
     margin-left: 20px;
 
+}
+
+[data-Box ="Center"]{
+
+    width: 50%;
+    height: 70%;
+    background: linear-gradient(#f7fafa, #595a5a);
+    border-radius: 2rem;
+    margin-top: 90px;
+
+}
+
+[data-Box ="NewBoxSRC"]{
+
+    width: 90%;
+    height: 70%;
+    border-radius: 2rem;
+
+}
+
+[data-Box ="NewBoxSubtiile"]{
+
+    display: block;
+    width: 100%;
+    height: 170px;
+    border-radius: 2rem;
+    background: linear-gradient(#a2a7a7, #595a5a);
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+[data-Box ="NewBoxtitle"]{
+
+    display: flex;
+    font-size: 28px;
+    color: black;
+    text-shadow: 3px 3px 3px white;
+    position: relative;
+    top: 33px;
+    justify-content: center;
+
+}
+
+[data-Box ="NewBoxDescription"]{
+
+    display: flex;
+    font-size: 18px;
+    color: black;
+    text-shadow: 3px 3px 3px white;
+    position: relative;
+    top: 40px;
+    justify-content: center;
 
 }

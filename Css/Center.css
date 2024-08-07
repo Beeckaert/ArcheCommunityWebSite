@@ -1,0 +1,17 @@
+/* Dev By SystemeRubis */
+
+/* container Parent Center Horizontal */
+
+[data-Container]{
+
+    text-align: center;
+
+}
+
+/* centrer dans le parent Horizontal*/
+
+[data-CenteredElement]{
+
+    display: inline-block;
+
+}
